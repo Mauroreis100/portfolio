@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <p id="welcomeMessage">Bem-vindo(a)!</p>
+        </div>
+        <div class="item2">
+            <div class="home" style="margin: 100px;">
+                <h1>Informação Especial</h1>
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQG48dDxG-fw_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718333509653?e=1729123200&v=beta&t=vN2g6MjiDjy2PJuAKglEgZhTGZShSRJrrZ4aMNqpzig" alt="">
+                <h1>Mauro Mahassa</h1>
+                <p>Olá, meu nome é Mauro Mahassa sou especialista em Desenvolvimento de Aplicações Web e ofereço habilidades de pensamento crítico e inovador. Tenho boas habilidades de comunicação, organização e gerenciamento de equipes tenho habilidades de trabalhar individualmente e também em um ambiente colaborativo mais amplo. Tenho excelentes habilidade de coordenação de equipes, projectos e actividades requeridas pela empresa usando a metodologia Ágil (SCRUM). </p>
+    
+                <div>
+                    <p>Contactos: </p>
+                    <p>+258 84 500 8414</p>
+                    <a href="https://www.linkedin.com/in/mauro-mahassa/">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="item3">
+            <a href="formacao.html">
+                <h1 style="text-orientation: upright;  writing-mode: vertical-lr;">
+                    Formação
+                </h1></a>
+        </div>  
+        <div class="item4"> <a  href="experiencia.html">
+            <h1 style="text-orientation: upright;  writing-mode: vertical-lr;">
+                Experiência
+            </h1></a></div>
+
+      </div>
+      <div class="footer">
+        <p>Obrigado por visitar o meu site. Todos os direitos reservados |  <a href="https://www.linkedin.com/in/mauro-mahassa/"> Mauro Mahassa</a></p>
+      </div>
+</body>
+<script>
+    window.onload = function() {
+            var nome = prompt("Por favor, digite seu nome:");
+            var email= prompt("Por favor, digite seu email:");
+            document.getElementById("welcomeMessage").innerText = "Obrigado por partilhar os seus detalhes. Nome" + nome + " | Email: "+email;
+            }
+</script>
+</html>
